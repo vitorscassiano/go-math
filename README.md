@@ -15,6 +15,22 @@ O desafio pra esse primeiro dojo, nós vamos construir uma linha de comando que 
 
 ## Projeto
 
+### Execução
+
+```shell
+> ./programa add 5 4
+# Output: 9
+
+> ./programa sub 5 4
+# Output: 1
+
+> ./programa mut 5 4
+# Output: 40
+
+> ./programa div 5 4
+# Output: 1.25
+```
+
 ### Estrutura de pastas
 
 ```shell
@@ -29,4 +45,12 @@ O desafio pra esse primeiro dojo, nós vamos construir uma linha de comando que 
 
 ### Casos de uso
 
-[ ] 
+[ ] Usuário soma dois números.
+[ ] Usuário subtrai dois números.
+[ ] Usuário multiplica dois números.
+[ ] Usuário divide dois números.
+
+### Features bonus
+[ ] Usuário soma/subtrai/multiplica/divide uma lista de números.
+[ ] Usuário pode usar os sinais '+, -, * e /' para realizar as operações.
+[ ] Usuário pode realizar operações em números decimais.
