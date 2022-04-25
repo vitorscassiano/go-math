@@ -3,9 +3,26 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
 	inputs := os.Args
-	fmt.Println(inputs[1:])
+
+	operator := strings.ToLower(inputs[1])
+
+	switch operator {
+	case "add":
+		// result := calculator.Add()
+		// result := calculator.Add(1, 2)
+		fmt.Println("Operação de adição")
+	case "sub":
+		fmt.Println("Operação de subtração.")
+	case "mut":
+		fmt.Println("Operação de multiplicação")
+	case "div":
+		fmt.Println("Operação de divisão")
+	default:
+		fmt.Println("Operação não reconhecida.")
+	}
 }

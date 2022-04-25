@@ -1,4 +1,4 @@
-package add_test
+package operations_test
 
 import "testing"
 
