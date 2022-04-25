@@ -13,8 +13,6 @@ func main() {
 
 	switch operator {
 	case "add":
-		// result := calculator.Add()
-		// result := calculator.Add(1, 2)
 		fmt.Println("Operação de adição")
 	case "sub":
 		fmt.Println("Operação de subtração.")
